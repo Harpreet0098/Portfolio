@@ -38,6 +38,8 @@ body{
   font:normal 75% Arial, Helvetica, sans-serif;
 }
 
+/*##############################Common Particles.js Styles##########################################*/
+/*#######################################################################################*/
 canvas{
   display:block;
   vertical-align:bottom;
@@ -50,12 +52,14 @@ canvas{
   height: 100%;
   z-index: -1;
   background-color: rgb(78, 25, 25);
-  background-image: url('');
+  /*background-image: url('');*/
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 
+/*##############################Home Page Styles##########################################*/
+/*#######################################################################################*/
 #navbar{
     background-color: rgba(27, 16, 16, 0.63);
     width: 60px;
@@ -84,6 +88,7 @@ canvas{
     top: 30%;
     width: 40%;
     max-height: 90%;
+    /*border: 1px solid black;*/
 }
 .textBox h1{
     color: #fff;
@@ -99,3 +104,7 @@ canvas{
     font-family: "Open Sans", sans-serif;
     letter-spacing: 3px;
 }
+
+/*##############################About Page Styles##########################################*/
+/*#######################################################################################*/
+
