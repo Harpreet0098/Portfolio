@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<title>Harpreet Singh</title>
+	</head>
+	<body>
+		<div id="navbar">
+			<nav >
+				<ul>
+					<li><a href="index.html"><i class="fa fa-home"></i></a></li>
+					<li><a href="about.html"><i class="fa fa-user-secret"></i></a></li>
+					<li><a href="skills.html"><i class="fa fa-code"></i></a></li>
+					<li><a href="contact.html"><i class="fa fa-envelope-o"></i></a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div id="contact">
+        	<div class="container">     		
+            	<div class="row">
+                    <div class="col-md-5">
+                    	<h2>Get in touch with me</h2>
+                        <form   method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input  type="text" name="name" class="form-control" id="name" placeholder="Name">
+                                <label for="email"></label>
+                                <input  type="text"  name="email" class="form-control" id="email" placeholder="Email">
+                                <label for="comments"></label>
+                                <textarea class="form-control" type="text" id="comment" rows="5" placeholder="Message"></textarea>
+                                <br/><br/>
+                                <input class="animated rubberBand" type="submit" class="btn btn-default" value="SEND">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-7">
+                    	<div id="map"></div>
+                    </div>
+	            </div>
+	        </div>
+   		</div>
+   					<!-- particles.js container -->
+		<div id="particles-js"></div>
+		<!--Scripts-->
+		<script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjY_gNcUGgfzqbBZiEZXHE2FaL3DHJwgQ&callback=initMap">
+    	</script>
+		
+		<script type="text/javascript" src="js/particles.js" ></script>
+		<script type="text/javascript" src="js/script.js" ></script>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
