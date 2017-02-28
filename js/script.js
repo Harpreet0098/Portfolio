@@ -117,7 +117,7 @@ particlesJS("particles-js", {
 
 /*##########################Google Maps################################*/
       function initMap() {
-        var uluru = {lat:43.632932, lng:-79.933583 };
+        var uluru = {lat:43.388356, lng:-80.409344 };
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru
